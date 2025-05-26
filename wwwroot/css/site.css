@@ -129,3 +129,10 @@
 .checked {
     color: orange;
 }
+.slider-image {
+    width: 100%;
+    height: 400px; /* istediğin sabit yükseklik */
+    object-fit: cover; /* Taşanı kırpar ama oranı bozulmaz */
+    object-position: center;
+    border-radius: 8px; /* kozmetik */
+}

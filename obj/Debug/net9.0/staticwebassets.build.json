@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AiQP6j5VwdD6JaDzBCmW2Sek4AVzZO0bUN95Kskp61g=",
+  "Hash": "tVzYRdJWKlKZrHSWW4Hyo4tf9Y2ZslDtqgWLOuvzsK8=",
   "Source": "dotnet-store",
   "BasePath": "_content/dotnet-store",
   "Mode": "Default",
@@ -710,12 +710,12 @@
       "OriginalItemSpec": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-iuupnodv0a.gz",
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-pgppi7aqz8.gz",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/dotnet-store",
-      "RelativePath": "css/site#[.{fingerprint=iuupnodv0a}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=pgppi7aqz8}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -724,8 +724,8 @@
       "RelatedAsset": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "pepsq9c5eg",
-      "Integrity": "oY3IB8EN/UkignL+DLsOhxzV3a8ZyKA+hgwDAzi+pVU=",
+      "Fingerprint": "v9tq8oh6sk",
+      "Integrity": "sw7BNAcSPrIMJ7+q2YZcn7WizAN1Y+2hm2GZUFjCBAA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\css\\site.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "iuupnodv0a",
-      "Integrity": "ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE=",
+      "Fingerprint": "pgppi7aqz8",
+      "Integrity": "KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1569,6 +1569,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\00xzlean.4zpjpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\0m2guynd.wz5.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/0m2guynd.wz5#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ivwodemtpb",
+      "Integrity": "kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\0m2guynd.wz5.jpeg"
     },
     {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\1-big.jpeg",
@@ -1802,6 +1823,27 @@
       "OriginalItemSpec": "wwwroot\\img\\5.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\5zoxfbm4.vuw.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/5zoxfbm4.vuw#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r1ukqcnl64",
+      "Integrity": "H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\5zoxfbm4.vuw.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\6.jpeg",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
@@ -1949,6 +1991,90 @@
       "OriginalItemSpec": "wwwroot\\img\\czuagdav.lpv.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\errof3so.tnc.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/errof3so.tnc#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nhajgh2nlt",
+      "Integrity": "249r4Ggb9lZAQzKERQfBMB7mpAKSVSSbnKyDKtGtbOM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\errof3so.tnc.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\f2t33z5f.cep.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/f2t33z5f.cep#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vfdq6vnvis",
+      "Integrity": "i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\f2t33z5f.cep.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\fjt01tck.kn5.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/fjt01tck.kn5#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vfdq6vnvis",
+      "Integrity": "i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\fjt01tck.kn5.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\gftagdsi.ho2.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/gftagdsi.ho2#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r1ukqcnl64",
+      "Integrity": "H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\gftagdsi.ho2.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\j24cmgiw.cxo.jpeg",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
@@ -2012,6 +2138,27 @@
       "OriginalItemSpec": "wwwroot\\img\\kz5bghrj.0rq.jpg"
     },
     {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\lm1dsfah.nsv.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/lm1dsfah.nsv#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ivwodemtpb",
+      "Integrity": "kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\lm1dsfah.nsv.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\mthu0heg.buo.jpg",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
@@ -2033,6 +2180,48 @@
       "OriginalItemSpec": "wwwroot\\img\\mthu0heg.buo.jpg"
     },
     {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\n0dlmomd.bxu.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/n0dlmomd.bxu#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r1ukqcnl64",
+      "Integrity": "H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\n0dlmomd.bxu.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\n53x2nyi.2z1.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/n53x2nyi.2z1#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vfdq6vnvis",
+      "Integrity": "i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\n53x2nyi.2z1.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\ncaldw4u.aqajpeg",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
@@ -2052,6 +2241,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\ncaldw4u.aqajpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\ncfyorvf.wra.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/ncfyorvf.wra#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vwrqm14ppp",
+      "Integrity": "MfaAU9CzwCfr3BobiNvda9m03A4fvuDSzD5F1Ttyico=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\ncfyorvf.wra.jpeg"
     },
     {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\p3ub2d5y.3tc.jpg",
@@ -2201,6 +2411,48 @@
       "OriginalItemSpec": "wwwroot\\img\\t5qyqigb.mkf.jpg"
     },
     {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\u1nnbbi5.je4.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/u1nnbbi5.je4#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4h9dvv9my9",
+      "Integrity": "ONy0hhjFHKdUQYpw4hxTYRvAgnaJyOYV/9MM6O4yicM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\u1nnbbi5.je4.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\wrnowmvp.e03.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/wrnowmvp.e03#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3u13vgtnql",
+      "Integrity": "C3sBBEdfqrc4t1N8RHEzgT14+J/dl++Pv0f5CBPlyY8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\wrnowmvp.e03.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\xccu3d5h.sci.jpg",
       "SourceId": "dotnet-store",
       "SourceType": "Discovered",
@@ -2220,6 +2472,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\xccu3d5h.sci.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\yez42tbf.wto.jpeg",
+      "SourceId": "dotnet-store",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\",
+      "BasePath": "_content/dotnet-store",
+      "RelativePath": "img/yez42tbf.wto#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ivwodemtpb",
+      "Integrity": "kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\yez42tbf.wto.jpeg"
     },
     {
       "Identity": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\zbmrm1vl.2ji.jpg",
@@ -3867,12 +4140,12 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-iuupnodv0a.gz",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-pgppi7aqz8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001540832049"
+          "Quality": "0.001342281879"
         }
       ],
       "ResponseHeaders": [
@@ -3882,15 +4155,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "744"
         },
         {
           "Name": "ETag",
-          "Value": "\"oY3IB8EN/UkignL+DLsOhxzV3a8ZyKA+hgwDAzi+pVU=\""
+          "Value": "\"sw7BNAcSPrIMJ7+q2YZcn7WizAN1Y+2hm2GZUFjCBAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 20:42:15 GMT"
+          "Value": "Mon, 26 May 2025 16:43:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3910,13 +4183,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE=\""
+          "Value": "W/\"KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE="
+          "Value": "sha256-KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU="
         }
       ]
     },
@@ -3931,7 +4204,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1939"
+          "Value": "2168"
         },
         {
           "Name": "Content-Type",
@@ -3939,11 +4212,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE=\""
+          "Value": "\"KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 20:42:15 GMT"
+          "Value": "Mon, 26 May 2025 16:43:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3953,13 +4226,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE="
+          "Value": "sha256-KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-iuupnodv0a.gz",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-pgppi7aqz8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3968,7 +4241,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "744"
         },
         {
           "Name": "Content-Type",
@@ -3976,11 +4249,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oY3IB8EN/UkignL+DLsOhxzV3a8ZyKA+hgwDAzi+pVU=\""
+          "Value": "\"sw7BNAcSPrIMJ7+q2YZcn7WizAN1Y+2hm2GZUFjCBAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 20:42:15 GMT"
+          "Value": "Mon, 26 May 2025 16:43:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3998,18 +4271,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oY3IB8EN/UkignL+DLsOhxzV3a8ZyKA+hgwDAzi+pVU="
+          "Value": "sha256-sw7BNAcSPrIMJ7+q2YZcn7WizAN1Y+2hm2GZUFjCBAA="
         }
       ]
     },
     {
-      "Route": "css/site.iuupnodv0a.css",
-      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-iuupnodv0a.gz",
+      "Route": "css/site.pgppi7aqz8.css",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-pgppi7aqz8.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001540832049"
+          "Quality": "0.001342281879"
         }
       ],
       "ResponseHeaders": [
@@ -4019,15 +4292,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "744"
         },
         {
           "Name": "ETag",
-          "Value": "\"oY3IB8EN/UkignL+DLsOhxzV3a8ZyKA+hgwDAzi+pVU=\""
+          "Value": "\"sw7BNAcSPrIMJ7+q2YZcn7WizAN1Y+2hm2GZUFjCBAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 20:42:15 GMT"
+          "Value": "Mon, 26 May 2025 16:43:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4047,13 +4320,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE=\""
+          "Value": "W/\"KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iuupnodv0a"
+          "Value": "pgppi7aqz8"
         },
         {
           "Name": "label",
@@ -4061,12 +4334,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE="
+          "Value": "sha256-KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU="
         }
       ]
     },
     {
-      "Route": "css/site.iuupnodv0a.css",
+      "Route": "css/site.pgppi7aqz8.css",
       "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4076,7 +4349,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1939"
+          "Value": "2168"
         },
         {
           "Name": "Content-Type",
@@ -4084,11 +4357,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE=\""
+          "Value": "\"KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 20:42:15 GMT"
+          "Value": "Mon, 26 May 2025 16:43:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4098,7 +4371,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iuupnodv0a"
+          "Value": "pgppi7aqz8"
         },
         {
           "Name": "label",
@@ -4106,13 +4379,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ljDrPeawyRTX2nNwZAezVN/o4B1IZi8d0UsUMJTjoLE="
+          "Value": "sha256-KTu2FM2udzpAdyAD79uZbQaeN6wwrYy2vbCV7uN9XJU="
         }
       ]
     },
     {
-      "Route": "css/site.iuupnodv0a.css.gz",
-      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-iuupnodv0a.gz",
+      "Route": "css/site.pgppi7aqz8.css.gz",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\obj\\Debug\\net9.0\\compressed\\gejvkwke1r-pgppi7aqz8.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4121,7 +4394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "648"
+          "Value": "744"
         },
         {
           "Name": "Content-Type",
@@ -4129,11 +4402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oY3IB8EN/UkignL+DLsOhxzV3a8ZyKA+hgwDAzi+pVU=\""
+          "Value": "\"sw7BNAcSPrIMJ7+q2YZcn7WizAN1Y+2hm2GZUFjCBAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 20:42:15 GMT"
+          "Value": "Mon, 26 May 2025 16:43:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4151,7 +4424,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iuupnodv0a"
+          "Value": "pgppi7aqz8"
         },
         {
           "Name": "label",
@@ -4159,7 +4432,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oY3IB8EN/UkignL+DLsOhxzV3a8ZyKA+hgwDAzi+pVU="
+          "Value": "sha256-sw7BNAcSPrIMJ7+q2YZcn7WizAN1Y+2hm2GZUFjCBAA="
         }
       ]
     },
@@ -5438,6 +5711,88 @@
       ]
     },
     {
+      "Route": "img/0m2guynd.wz5.ivwodemtpb.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\0m2guynd.wz5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ivwodemtpb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/0m2guynd.wz5.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4="
+        }
+      ]
+    },
+    {
+      "Route": "img/0m2guynd.wz5.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\0m2guynd.wz5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4="
+        }
+      ]
+    },
+    {
       "Route": "img/1-big.jpeg",
       "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\1-big.jpeg",
       "Selectors": [],
@@ -6340,6 +6695,88 @@
       ]
     },
     {
+      "Route": "img/5zoxfbm4.vuw.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\5zoxfbm4.vuw.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:14:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE="
+        }
+      ]
+    },
+    {
+      "Route": "img/5zoxfbm4.vuw.r1ukqcnl64.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\5zoxfbm4.vuw.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:14:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1ukqcnl64"
+        },
+        {
+          "Name": "label",
+          "Value": "img/5zoxfbm4.vuw.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE="
+        }
+      ]
+    },
+    {
       "Route": "img/6.foxah5gzdo.jpeg",
       "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\6.jpeg",
       "Selectors": [],
@@ -6914,6 +7351,334 @@
       ]
     },
     {
+      "Route": "img/errof3so.tnc.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\errof3so.tnc.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"249r4Ggb9lZAQzKERQfBMB7mpAKSVSSbnKyDKtGtbOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:39:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-249r4Ggb9lZAQzKERQfBMB7mpAKSVSSbnKyDKtGtbOM="
+        }
+      ]
+    },
+    {
+      "Route": "img/errof3so.tnc.nhajgh2nlt.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\errof3so.tnc.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82100"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"249r4Ggb9lZAQzKERQfBMB7mpAKSVSSbnKyDKtGtbOM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:39:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nhajgh2nlt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/errof3so.tnc.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-249r4Ggb9lZAQzKERQfBMB7mpAKSVSSbnKyDKtGtbOM="
+        }
+      ]
+    },
+    {
+      "Route": "img/f2t33z5f.cep.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\f2t33z5f.cep.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:32:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48="
+        }
+      ]
+    },
+    {
+      "Route": "img/f2t33z5f.cep.vfdq6vnvis.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\f2t33z5f.cep.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:32:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfdq6vnvis"
+        },
+        {
+          "Name": "label",
+          "Value": "img/f2t33z5f.cep.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48="
+        }
+      ]
+    },
+    {
+      "Route": "img/fjt01tck.kn5.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\fjt01tck.kn5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:31:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48="
+        }
+      ]
+    },
+    {
+      "Route": "img/fjt01tck.kn5.vfdq6vnvis.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\fjt01tck.kn5.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:31:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfdq6vnvis"
+        },
+        {
+          "Name": "label",
+          "Value": "img/fjt01tck.kn5.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48="
+        }
+      ]
+    },
+    {
+      "Route": "img/gftagdsi.ho2.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\gftagdsi.ho2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:32:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE="
+        }
+      ]
+    },
+    {
+      "Route": "img/gftagdsi.ho2.r1ukqcnl64.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\gftagdsi.ho2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:32:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1ukqcnl64"
+        },
+        {
+          "Name": "label",
+          "Value": "img/gftagdsi.ho2.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE="
+        }
+      ]
+    },
+    {
       "Route": "img/j24cmgiw.cxo.jpeg",
       "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\j24cmgiw.cxo.jpeg",
       "Selectors": [],
@@ -7160,6 +7925,88 @@
       ]
     },
     {
+      "Route": "img/lm1dsfah.nsv.ivwodemtpb.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\lm1dsfah.nsv.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ivwodemtpb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/lm1dsfah.nsv.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4="
+        }
+      ]
+    },
+    {
+      "Route": "img/lm1dsfah.nsv.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\lm1dsfah.nsv.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:31:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4="
+        }
+      ]
+    },
+    {
       "Route": "img/mthu0heg.buo.jpg",
       "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\mthu0heg.buo.jpg",
       "Selectors": [],
@@ -7242,6 +8089,170 @@
       ]
     },
     {
+      "Route": "img/n0dlmomd.bxu.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\n0dlmomd.bxu.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:31:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE="
+        }
+      ]
+    },
+    {
+      "Route": "img/n0dlmomd.bxu.r1ukqcnl64.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\n0dlmomd.bxu.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:31:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r1ukqcnl64"
+        },
+        {
+          "Name": "label",
+          "Value": "img/n0dlmomd.bxu.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H48kTqR+kPNzQAwF0k3IJ0kXvur0wfjHzyyvcbIkJCE="
+        }
+      ]
+    },
+    {
+      "Route": "img/n53x2nyi.2z1.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\n53x2nyi.2z1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:14:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48="
+        }
+      ]
+    },
+    {
+      "Route": "img/n53x2nyi.2z1.vfdq6vnvis.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\n53x2nyi.2z1.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:14:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vfdq6vnvis"
+        },
+        {
+          "Name": "label",
+          "Value": "img/n53x2nyi.2z1.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i5gcdCdUhjZihWuSUCs8WhFrIyvgyElStfooQIUxy48="
+        }
+      ]
+    },
+    {
       "Route": "img/ncaldw4u.aqajpeg",
       "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\ncaldw4u.aqajpeg",
       "Selectors": [],
@@ -7320,6 +8331,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-uuBN4JTiL8abNRGVW7om1Z6yvRCL3jynWJOPXPjDyjo="
+        }
+      ]
+    },
+    {
+      "Route": "img/ncfyorvf.wra.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\ncfyorvf.wra.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MfaAU9CzwCfr3BobiNvda9m03A4fvuDSzD5F1Ttyico=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MfaAU9CzwCfr3BobiNvda9m03A4fvuDSzD5F1Ttyico="
+        }
+      ]
+    },
+    {
+      "Route": "img/ncfyorvf.wra.vwrqm14ppp.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\ncfyorvf.wra.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MfaAU9CzwCfr3BobiNvda9m03A4fvuDSzD5F1Ttyico=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vwrqm14ppp"
+        },
+        {
+          "Name": "label",
+          "Value": "img/ncfyorvf.wra.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MfaAU9CzwCfr3BobiNvda9m03A4fvuDSzD5F1Ttyico="
         }
       ]
     },
@@ -7898,6 +8991,170 @@
       ]
     },
     {
+      "Route": "img/u1nnbbi5.je4.4h9dvv9my9.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\u1nnbbi5.je4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ONy0hhjFHKdUQYpw4hxTYRvAgnaJyOYV/9MM6O4yicM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:39:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4h9dvv9my9"
+        },
+        {
+          "Name": "label",
+          "Value": "img/u1nnbbi5.je4.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ONy0hhjFHKdUQYpw4hxTYRvAgnaJyOYV/9MM6O4yicM="
+        }
+      ]
+    },
+    {
+      "Route": "img/u1nnbbi5.je4.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\u1nnbbi5.je4.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ONy0hhjFHKdUQYpw4hxTYRvAgnaJyOYV/9MM6O4yicM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:39:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ONy0hhjFHKdUQYpw4hxTYRvAgnaJyOYV/9MM6O4yicM="
+        }
+      ]
+    },
+    {
+      "Route": "img/wrnowmvp.e03.3u13vgtnql.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\wrnowmvp.e03.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3sBBEdfqrc4t1N8RHEzgT14+J/dl++Pv0f5CBPlyY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3u13vgtnql"
+        },
+        {
+          "Name": "label",
+          "Value": "img/wrnowmvp.e03.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3sBBEdfqrc4t1N8RHEzgT14+J/dl++Pv0f5CBPlyY8="
+        }
+      ]
+    },
+    {
+      "Route": "img/wrnowmvp.e03.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\wrnowmvp.e03.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104485"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C3sBBEdfqrc4t1N8RHEzgT14+J/dl++Pv0f5CBPlyY8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:41:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C3sBBEdfqrc4t1N8RHEzgT14+J/dl++Pv0f5CBPlyY8="
+        }
+      ]
+    },
+    {
       "Route": "img/xccu3d5h.sci.fva2xh4ftf.jpg",
       "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\xccu3d5h.sci.jpg",
       "Selectors": [],
@@ -7976,6 +9233,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-dbeAXg5Vvxiw4oWmM6xIxVtmRmh2bWNzBmmNpfZHyQM="
+        }
+      ]
+    },
+    {
+      "Route": "img/yez42tbf.wto.ivwodemtpb.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\yez42tbf.wto.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:14:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ivwodemtpb"
+        },
+        {
+          "Name": "label",
+          "Value": "img/yez42tbf.wto.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4="
+        }
+      ]
+    },
+    {
+      "Route": "img/yez42tbf.wto.jpeg",
+      "AssetFile": "C:\\Users\\Oprad\\Desktop\\9.0_Thesis\\Yeni\\dotnet-store\\wwwroot\\img\\yez42tbf.wto.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 16:14:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kn6O1hTkPc2tCy9zqTDMkO0rR3JoN9bvRNdXvTJTOu4="
         }
       ]
     },

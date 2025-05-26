@@ -23,6 +23,17 @@ public class OrderController : Controller
         _cartService = cartService;
         _context = context;
     }
+
+    [Authorize(Roles = "Admin")]
+    public ActionResult Index()
+    {
+        return View(_context.Orders.ToList());
+    }
+    [Authorize(Roles = "Admin")]
+    public ActionResult Details(int id)
+    {
+        return View();
+    }
     public async Task<ActionResult> CheckOut()
     {
         ViewBag.Cart = await _cartService.GetCart(User.Identity?.Name!);

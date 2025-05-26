@@ -13,8 +13,8 @@
 
         <a asp-controller="Urun" asp-action="Details" asp-route-id="@Model.Id"  class="title text-truncate">@Model.UrunAdi</a>
         <div class="price-wrap">
-            <span class="price-discount">45.999 ₺</span>
-            <del class="price">49.999 ₺</del>
+            <del class="price">@(Model.Fiyat+100) ₺</del>
+            <span class="price-discount">@Model.Fiyat ₺</span>
         </div>
     </div>
 </div>

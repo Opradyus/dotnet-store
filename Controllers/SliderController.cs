@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using dotnet_store.Models;
+using dotnet_store.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -14,11 +15,13 @@ namespace dotnet_store.Controllers;
     public class SliderController:Controller
     {
         private readonly DataContext _context;
+        private readonly ImageProcessingService _imageProcessingService;
 
-        public SliderController(DataContext context)
-        {
-            _context = context;
-        }
+    public SliderController(DataContext context, ImageProcessingService imageProcessingService)
+    {
+        _context = context;
+        _imageProcessingService = imageProcessingService;
+    }
 
         public ActionResult Index()
         {
@@ -40,29 +43,34 @@ namespace dotnet_store.Controllers;
         [HttpPost] 
         public async Task<ActionResult> Create(SliderCreateModel model)
         {
-            if(model.Resim == null || model.Resim.Length == 0){
-                
+            if (model.Resim == null || model.Resim.Length == 0)
                 return View(model);
-            }
-            if(ModelState.IsValid){
+
+            if (ModelState.IsValid)
+            {
                 var fileName = Path.GetRandomFileName() + ".jpeg";
-                var path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/img",fileName);
-                using(var stream = new FileStream(path,FileMode.Create))
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
+
+                using var inputStream = model.Resim.OpenReadStream();
+                await _imageProcessingService.ResizeAndSaveAsync(inputStream, path);
+
+
+                var entity = new Slider
                 {
-                 await model.Resim!.CopyToAsync(stream);
-                }
-                var entity = new Slider{
-                  Baslik = model.Baslik,
-                    Aciklama=model.Aciklama,
-                        Aktif=model.Aktif,
-                            Resim=fileName,
-                             Index=model.Index
+                    Baslik = model.Baslik,
+                    Aciklama = model.Aciklama,
+                    Aktif = model.Aktif,
+                    Resim = fileName,
+                    Index = model.Index
                 };
+
                 _context.Sliderlar.Add(entity);
-                _context.SaveChanges();
+                await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
+
             return View(model);
+
         }
         public ActionResult Edit(int id)
         {
@@ -87,15 +95,15 @@ namespace dotnet_store.Controllers;
             {
             var entity = _context.Sliderlar.FirstOrDefault(i=> i.Id == id);
             if(entity != null){
-                if(model.Resim != null)
+                if (model.Resim != null)
                 {
-                var fileName = Path.GetRandomFileName()+".jpeg" ;
-                var path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/img",fileName);
-                using (var stream = new FileStream(path,FileMode.Create))
-                    {
-                    await model.Resim!.CopyToAsync(stream);
-                    }
-                 entity.Resim = fileName;
+                    var fileName = Path.GetRandomFileName() + ".jpeg";
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img", fileName);
+
+                    using var inputStream = model.Resim.OpenReadStream();
+                    await _imageProcessingService.ResizeAndSaveAsync(inputStream, path);
+
+                    entity.Resim = fileName;
                 }
                 entity.Aciklama=model.Aciklama;
                 entity.Baslik=model.Baslik;

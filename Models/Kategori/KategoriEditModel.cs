@@ -13,7 +13,7 @@ namespace dotnet_store.Models;
 
     [Display(Name ="Kategori Adı")]
     [Required]
-    [StringLength(30)]
+    [StringLength(50)]
     public string KategoriAdi { get; set; } = null!;
 
     [Display(Name ="Adres")]

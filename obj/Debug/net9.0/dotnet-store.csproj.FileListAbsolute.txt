@@ -207,7 +207,6 @@ C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\dotnet-stor
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\dotnet-store.genruntimeconfig.cache
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\ref\dotnet-store.dll
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\compressed\stxxyg6xyu-x0g0cpgn37.gz
-C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\compressed\gejvkwke1r-iuupnodv0a.gz
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -226,3 +225,6 @@ C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\runtimes\li
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\runtimes\linux-riscv64\native\libe_sqlite3.so
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Microsoft.Data.Sqlite.dll
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\dotnet-store.sourcelink.json
+C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\SixLabors.ImageSharp.dll
+C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\compressed\gejvkwke1r-pgppi7aqz8.gz
