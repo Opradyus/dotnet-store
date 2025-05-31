@@ -25,11 +25,22 @@ public class Order
 
     public string Telefon { get; set; } = null!;
 
-    public string SiparisNotu { get; set; } = null!;
+    public string? SiparisNotu { get; set; } = null!;
 
     public double ToplamFiyat { get; set; }
 
     public List<OrderItem> OrderItems { get; set; } = new();
+
+     public double AraToplam()
+    {
+        return OrderItems.Sum(i => i.Urun.Fiyat * i.Miktar);
+    }
+
+    public double Toplam()
+    {
+        return OrderItems.Sum(i => i.Urun.Fiyat * i.Miktar)*1.2;
+
+    }
 
 }
 

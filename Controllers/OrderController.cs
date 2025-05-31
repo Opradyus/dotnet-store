@@ -1,27 +1,27 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using dotnet_store.Models;
 using dotnet_store.Services;
+using Iyzipay;
+using Iyzipay.Model;
+using Iyzipay.Request;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using SixLabors.ImageSharp.Processing;
 
 namespace dotnet_store.Controllers;
-
 
 [Authorize]
 public class OrderController : Controller
 {
-
-
-
     private readonly ICartService _cartService;
+
+    private readonly IConfiguration _configuration;
     private readonly DataContext _context;
-    public OrderController(ICartService cartService, DataContext context)
+    public OrderController(ICartService cartService, DataContext context, IConfiguration configuration)
     {
         _cartService = cartService;
         _context = context;
+        _configuration = configuration;
     }
 
     [Authorize(Roles = "Admin")]
@@ -32,7 +32,8 @@ public class OrderController : Controller
     [Authorize(Roles = "Admin")]
     public ActionResult Details(int id)
     {
-        return View();
+        var order = _context.Orders.Include(i => i.OrderItems).ThenInclude(i => i.Urun).FirstOrDefault(i => i.Id == id);
+        return View(order);
     }
     public async Task<ActionResult> CheckOut()
     {
@@ -64,21 +65,27 @@ public class OrderController : Controller
                 SiparisTarihi = DateTime.Now,
                 ToplamFiyat = cart.Toplam(),
                 Username = username,
-                OrderItems = cart.CartItems.Select(i => new OrderItem
+                OrderItems = cart.CartItems.Select(i => new Models.OrderItem
                 {
                     UrunId = i.UrunId,
                     Fiyat = i.Urun.Fiyat,
                     Miktar = i.Miktar
                 }).ToList()
             };
+            var payment = await ProcessPayment(model, cart);
 
-
-            _context.Orders.Add(order);
-            _context.Carts.Remove(cart);
-            await _context.SaveChangesAsync();
-            return RedirectToAction("Completed", new { orderId = order.Id });
-        }
-        ;
+            if (payment.Status == "success")
+            {
+                _context.Orders.Add(order);
+                _context.Carts.Remove(cart);
+                await _context.SaveChangesAsync();
+                return RedirectToAction("Completed", new { orderId = order.Id });
+            }
+            else
+            {
+                ModelState.AddModelError("", payment.ErrorMessage);
+            }
+        };
         ViewBag.Cart = cart;
         return View(model);
 
@@ -86,9 +93,88 @@ public class OrderController : Controller
 
     public ActionResult Completed(string orderId)
     {
-        return View("Completed",orderId);
+        return View("Completed", orderId);
     }
 
+    public async Task<ActionResult> OrderList()
+    {
+        var username = User.Identity?.Name;
+        var orders = await _context.Orders.Include(i => i.OrderItems)
+                                           .ThenInclude(i => i.Urun)
+                                           .Where(i => i.Username == username)
+                                           .ToListAsync();
+
+        return View(orders);
+    }
+
+    private async Task<Payment> ProcessPayment(OrderCreateModel model, Cart cart)
+    {
+        Options options = new Options();
+        options.ApiKey = _configuration["Payment:API Key"];   //BU kısımda keyleri almak lazım.
+        options.SecretKey = _configuration["Payment:Secret Key"];
+        options.BaseUrl = "https://sandbox-api.iyzipay.com";
+                
+        CreatePaymentRequest request = new CreatePaymentRequest();
+        request.Locale = Locale.TR.ToString();
+        request.ConversationId = Guid.NewGuid().ToString();
+        request.Price = cart.AraToplam().ToString();
+        request.PaidPrice = cart.AraToplam().ToString();
+        request.Currency = Currency.TRY.ToString();
+        request.Installment = 1;
+        request.BasketId = "B67832";
+        request.PaymentChannel = PaymentChannel.WEB.ToString();
+        request.PaymentGroup = PaymentGroup.PRODUCT.ToString();
+
+        PaymentCard paymentCard = new PaymentCard();
+        paymentCard.CardHolderName = model.CartName;
+        paymentCard.CardNumber = model.CartNumber;
+        paymentCard.ExpireMonth = model.CartExpirationMonth;
+        paymentCard.ExpireYear = model.CartExpirationYear;
+        paymentCard.Cvc =model.CartCVV;
+        paymentCard.RegisterCard = 0;
+        request.PaymentCard = paymentCard;
+
+        Buyer buyer = new Buyer();
+        buyer.Id = "BY789";
+        buyer.Name = model.AdSoyad;
+        buyer.Surname = "Doe";
+        buyer.GsmNumber = model.Telefon;
+        buyer.Email = "email@email.com";
+        buyer.IdentityNumber = "74300864791";
+        buyer.LastLoginDate = "2015-10-05 12:43:35";
+        buyer.RegistrationDate = "2013-04-21 15:12:09";
+        buyer.RegistrationAddress = model.AdresSatiri;
+        buyer.Ip = "85.34.78.112";
+        buyer.City = model.Sehir;
+        buyer.Country = "Turkey";
+        buyer.ZipCode = model.PostaKodu;
+        request.Buyer = buyer;
+
+        Address address = new Address();
+        address.ContactName = model.AdSoyad;
+        address.City = model.Sehir;
+        address.Country = "Turkey";
+        address.Description = model.AdresSatiri;
+        address.ZipCode = model.PostaKodu;
+        request.ShippingAddress = address;
+        request.BillingAddress = address;
+
+        List<BasketItem> basketItems = new List<BasketItem>();
+        foreach (var item in cart.CartItems)
+        {
+            BasketItem basketItem = new BasketItem();
+            basketItem.Id = item.CartItemId.ToString();
+            basketItem.Name = item.Urun.UrunAdi.ToString();
+            basketItem.Category1 = "telefon";
+            basketItem.ItemType = BasketItemType.PHYSICAL.ToString();
+            basketItem.Price = item.Urun.Fiyat.ToString();
+            basketItems.Add(basketItem);
+        }
+      
+        request.BasketItems = basketItems;
+
+        return await Payment.Create(request, options);
+    }
 
 
 

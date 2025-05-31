@@ -227,4 +227,6 @@ C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Microsoft.D
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\dotnet-store.sourcelink.json
 C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\SixLabors.ImageSharp.dll
-C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\compressed\gejvkwke1r-pgppi7aqz8.gz
+C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Iyzipay.dll
+C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Oprad\Desktop\9.0_Thesis\Yeni\dotnet-store\obj\Debug\net9.0\compressed\gejvkwke1r-mb8dpvwzby.gz

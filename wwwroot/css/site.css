@@ -130,9 +130,9 @@
     color: orange;
 }
 .slider-image {
-    width: 100%;
-    height: 400px; /* istediğin sabit yükseklik */
-    object-fit: cover; /* Taşanı kırpar ama oranı bozulmaz */
+    width: 100px;
+    height: 200px; /* veya 250px, sana kalmış */
+    object-fit: cover;
     object-position: center;
-    border-radius: 8px; /* kozmetik */
 }
+

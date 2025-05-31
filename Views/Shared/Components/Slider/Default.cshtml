@@ -18,7 +18,7 @@
             int y = 0;
             foreach (var slider in Model){
                     <div class="carousel-item @(y==0 ? "active": "")">
-                    <img src="~/img/@slider.Resim" alt="@slider.Aciklama" class="d-block slider-image">
+                    <img src="~/img/@slider.Resim" alt="@slider.Aciklama" class="d-block w-100 slider-image">
                     </div>
                     y += 1;
         }

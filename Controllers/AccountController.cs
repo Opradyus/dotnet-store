@@ -23,7 +23,11 @@ public class AccountController : Controller
     private readonly DataContext _cartManager;
 
     private IEmailService _emailService;
-    public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> singInManager, IEmailService emailService, DataContext cartManager, ICartService cartService)
+    public AccountController(UserManager<AppUser> userManager,
+                            SignInManager<AppUser> singInManager,
+                            IEmailService emailService,
+                            DataContext cartManager,
+                            ICartService cartService)
     {
         _userManager = userManager;
         _singInManager = singInManager;
